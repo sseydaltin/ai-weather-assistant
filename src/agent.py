@@ -32,7 +32,7 @@ class AgentState(TypedDict):
     session_id: str
 
 
-llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"), temperature=0)
 rag_system: RAGSystem | None = None
 
 
