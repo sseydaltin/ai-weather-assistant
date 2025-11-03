@@ -1,4 +1,4 @@
-# LLM Framework (Uyumlu sürümler)
+# === LLM Framework (Uyumlu sürümler) ===
 langchain==0.2.14
 langchain-openai==0.1.15
 langchain-community==0.2.12
@@ -6,14 +6,16 @@ langchain-text-splitters==0.2.2
 langgraph==0.1.7
 langsmith==0.1.76
 
-# OpenAI
-openai>=1.30.0,<2.0.0
+# === OpenAI ===
+openai==1.44.0  # Sabit sürüm daha kararlı
 
-# Database
+# === Database ===
 pymongo==4.6.1
 
-# Utilities
+# === Utilities ===
 python-dotenv==1.0.1
 requests==2.31.0
 rich==13.7.1
 streamlit==1.39.0
+
+# === Ek olarak bazı sistem bağımlılıklarını stabilize eder
