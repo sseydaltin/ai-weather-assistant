@@ -1,4 +1,30 @@
+# Langchain ve AI
 annotated-types==0.7.0
+langchain==1.0.2
+langchain-core==1.0.1
+langchain-openai
+langchain-community
+langchain-text-splitters
+langgraph==1.0.1
+langgraph-checkpoint==3.0.0
+langgraph-prebuilt==1.0.1
+langgraph-sdk==0.2.9
+langsmith==0.4.38
+openai==1.44.0
+tiktoken
+
+# Vektör Veritabanları
+faiss-cpu
+chromadb
+
+# Streamlit ve Arayüz
+rich==13.7.1
+streamlit==1.39.0
+
+# Veritabanı
+pymongo==4.6.1
+
+# Yardımcı Araçlar ve Diğer Bağımlılıklar
 anyio==4.11.0
 certifi==2025.10.5
 charset-normalizer==3.4.4
@@ -10,17 +36,6 @@ idna==3.11
 jiter==0.11.1
 jsonpatch==1.33
 jsonpointer==3.0.0
-langchain==1.0.2
-langchain-core==1.0.1
-langchain-openai
-langchain-community
-langchain-text-splitters
-langgraph==1.0.1
-langgraph-checkpoint==3.0.0
-langgraph-prebuilt==1.0.1
-langgraph-sdk==0.2.9
-langsmith==0.4.38
-openai==2.6.1
 orjson==3.11.4
 ormsgpack==1.11.0
 packaging==25.0
@@ -38,27 +53,3 @@ typing-extensions==4.15.0
 urllib3==2.5.0
 xxhash==3.6.0
 zstandard==0.25.0
-
-<<<<<<< HEAD
-# Eklenen kütüphaneler
-pymongo
-rich
-streamlit
-faiss-cpu
-chromadb
-tiktoken
-=======
-# === OpenAI ===
-openai==1.44.0
-
-# === Database ===
-pymongo==4.6.1
-
-# === Utilities ===
-python-dotenv==1.0.1
-requests==2.31.0
-rich==13.7.1
-streamlit==1.39.0
-
-# === Ek olarak bazı sistem bağımlılıklarını stabilize eder ===
->>>>>>> 2b48086 (deps: fix Streamlit install failure by removing faiss-cpu and packages.txt; pin compatible versions)
