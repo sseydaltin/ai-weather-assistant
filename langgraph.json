@@ -1,0 +1,16 @@
+{
+  "dependencies": [
+    "langchain",
+    "langgraph",
+    "langchain-openai",
+    "langchain-community",
+    "pymongo",
+    "requests"
+  ],
+  "graphs": {
+    "weather_assistant": "./src/agent.py:create_agent"
+  },
+  "env": ".env"
+}
+
+
