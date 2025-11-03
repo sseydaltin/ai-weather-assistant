@@ -7,7 +7,7 @@ langgraph==0.1.7
 langsmith==0.1.76
 
 # === OpenAI ===
-openai==1.44.0  # Sabit sürüm daha kararlı
+openai==1.44.0
 
 # === Database ===
 pymongo==4.6.1
@@ -18,4 +18,7 @@ requests==2.31.0
 rich==13.7.1
 streamlit==1.39.0
 
-# === Ek olarak bazı sistem bağımlılıklarını stabilize eder
+# === Ek olarak bazı sistem bağımlılıklarını stabilize eder ===
+faiss-cpu
+chromadb==0.5.0
+tiktoken
