@@ -1,24 +1,22 @@
-# === LLM Framework (Uyumlu sürümler) ===
-langchain==0.2.14
-langchain-openai==0.1.15
-langchain-community==0.2.12
-langchain-text-splitters==0.2.2
-langgraph==0.1.7
-langsmith==0.1.76
 
-# === OpenAI ===
-openai==1.44.0
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+langgraph
+langsmith
 
-# === Database ===
-pymongo==4.6.1
 
-# === Utilities ===
-python-dotenv==1.0.1
-requests==2.31.0
-rich==13.7.1
-streamlit==1.39.0
+openai
 
-# === Ek olarak bazı sistem bağımlılıklarını stabilize eder ===
+pymongo
+
+
+python-dotenv
+requests
+rich
+streamlit
+
 faiss-cpu
-chromadb==0.5.0
+chromadb
 tiktoken
