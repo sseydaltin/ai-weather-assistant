@@ -14,8 +14,6 @@ openai==1.44.0
 tiktoken
 
 # Vektör Veritabanları
-# HATA NOTU: faiss-cpu paketi Streamlit Cloud'da kurulum hatasına neden olduğu için geçici olarak kaldırıldı.
-# Uygulama kodunuzda chromadb'yi kullandığınızdan emin olun.
 chromadb
 
 # Streamlit ve Arayüz
@@ -39,7 +37,6 @@ jsonpatch==1.33
 jsonpointer==3.0.0
 orjson==3.11.4
 ormsgpack==1.11.0
-packaging==25.0
 pydantic==2.12.3
 pydantic-core==2.41.4
 python-dotenv==1.2.1
